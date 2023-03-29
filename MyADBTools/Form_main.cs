@@ -40,6 +40,11 @@ namespace MyADBTools
             startUdpServer();
         }
 
+        private void Form_main_Load(object sender, EventArgs e)
+        {
+            this.Text += " V" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+        }
+
         private void Form_main_FormClosed(object sender, FormClosedEventArgs e)
         {
             stopUdpServer();

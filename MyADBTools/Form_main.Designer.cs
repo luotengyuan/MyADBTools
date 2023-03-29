@@ -139,7 +139,7 @@
             this.cb_slt_devices.FormattingEnabled = true;
             this.cb_slt_devices.Location = new System.Drawing.Point(18, 24);
             this.cb_slt_devices.Name = "cb_slt_devices";
-            this.cb_slt_devices.Size = new System.Drawing.Size(277, 23);
+            this.cb_slt_devices.Size = new System.Drawing.Size(277, 20);
             this.cb_slt_devices.TabIndex = 1;
             this.cb_slt_devices.SelectedIndexChanged += new System.EventHandler(this.cb_slt_devices_SelectedIndexChanged);
             // 
@@ -185,22 +185,22 @@
             this.tb_cmd_log.Multiline = true;
             this.tb_cmd_log.Name = "tb_cmd_log";
             this.tb_cmd_log.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_cmd_log.Size = new System.Drawing.Size(933, 361);
+            this.tb_cmd_log.Size = new System.Drawing.Size(933, 364);
             this.tb_cmd_log.TabIndex = 14;
             // 
             // tb_cmd
             // 
             this.tb_cmd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb_cmd.Location = new System.Drawing.Point(6, 373);
+            this.tb_cmd.Location = new System.Drawing.Point(6, 376);
             this.tb_cmd.Name = "tb_cmd";
-            this.tb_cmd.Size = new System.Drawing.Size(826, 25);
+            this.tb_cmd.Size = new System.Drawing.Size(826, 21);
             this.tb_cmd.TabIndex = 15;
             // 
             // btn_send_cmd
             // 
             this.btn_send_cmd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_send_cmd.Location = new System.Drawing.Point(838, 373);
+            this.btn_send_cmd.Location = new System.Drawing.Point(838, 376);
             this.btn_send_cmd.Name = "btn_send_cmd";
             this.btn_send_cmd.Size = new System.Drawing.Size(101, 25);
             this.btn_send_cmd.TabIndex = 16;
@@ -234,10 +234,10 @@
             this.tp_cmd_log.Controls.Add(this.tb_cmd_log);
             this.tp_cmd_log.Controls.Add(this.btn_send_cmd);
             this.tp_cmd_log.Controls.Add(this.tb_cmd);
-            this.tp_cmd_log.Location = new System.Drawing.Point(4, 25);
+            this.tp_cmd_log.Location = new System.Drawing.Point(4, 22);
             this.tp_cmd_log.Name = "tp_cmd_log";
             this.tp_cmd_log.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_cmd_log.Size = new System.Drawing.Size(945, 404);
+            this.tp_cmd_log.Size = new System.Drawing.Size(945, 407);
             this.tp_cmd_log.TabIndex = 2;
             this.tp_cmd_log.Text = "命令日志";
             this.tp_cmd_log.UseVisualStyleBackColor = true;
@@ -245,10 +245,10 @@
             // tp_device_info
             // 
             this.tp_device_info.Controls.Add(this.tb_device_info);
-            this.tp_device_info.Location = new System.Drawing.Point(4, 25);
+            this.tp_device_info.Location = new System.Drawing.Point(4, 22);
             this.tp_device_info.Name = "tp_device_info";
             this.tp_device_info.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_device_info.Size = new System.Drawing.Size(945, 404);
+            this.tp_device_info.Size = new System.Drawing.Size(945, 407);
             this.tp_device_info.TabIndex = 0;
             this.tp_device_info.Text = "设备信息";
             this.tp_device_info.UseVisualStyleBackColor = true;
@@ -262,7 +262,7 @@
             this.tb_device_info.Multiline = true;
             this.tb_device_info.Name = "tb_device_info";
             this.tb_device_info.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_device_info.Size = new System.Drawing.Size(933, 395);
+            this.tb_device_info.Size = new System.Drawing.Size(933, 398);
             this.tb_device_info.TabIndex = 0;
             // 
             // tp_app_manager
@@ -270,10 +270,10 @@
             this.tp_app_manager.Controls.Add(this.groupBox5);
             this.tp_app_manager.Controls.Add(this.groupBox4);
             this.tp_app_manager.Controls.Add(this.groupBox3);
-            this.tp_app_manager.Location = new System.Drawing.Point(4, 25);
+            this.tp_app_manager.Location = new System.Drawing.Point(4, 22);
             this.tp_app_manager.Name = "tp_app_manager";
             this.tp_app_manager.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_app_manager.Size = new System.Drawing.Size(945, 404);
+            this.tp_app_manager.Size = new System.Drawing.Size(945, 407);
             this.tp_app_manager.TabIndex = 1;
             this.tp_app_manager.Text = "应用管理";
             this.tp_app_manager.UseVisualStyleBackColor = true;
@@ -286,7 +286,7 @@
             this.groupBox5.Controls.Add(this.tb_apm_show);
             this.groupBox5.Location = new System.Drawing.Point(6, 153);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(931, 245);
+            this.groupBox5.Size = new System.Drawing.Size(931, 248);
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "数量展示";
@@ -300,7 +300,7 @@
             this.tb_apm_show.Multiline = true;
             this.tb_apm_show.Name = "tb_apm_show";
             this.tb_apm_show.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_apm_show.Size = new System.Drawing.Size(919, 219);
+            this.tb_apm_show.Size = new System.Drawing.Size(919, 222);
             this.tb_apm_show.TabIndex = 0;
             // 
             // groupBox4
@@ -401,7 +401,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tb_install_path.Location = new System.Drawing.Point(6, 20);
             this.tb_install_path.Name = "tb_install_path";
-            this.tb_install_path.Size = new System.Drawing.Size(838, 25);
+            this.tb_install_path.Size = new System.Drawing.Size(838, 21);
             this.tb_install_path.TabIndex = 9;
             // 
             // btn_install
@@ -432,16 +432,16 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tb_uninstall_pkg.Location = new System.Drawing.Point(6, 47);
             this.tb_uninstall_pkg.Name = "tb_uninstall_pkg";
-            this.tb_uninstall_pkg.Size = new System.Drawing.Size(838, 25);
+            this.tb_uninstall_pkg.Size = new System.Drawing.Size(838, 21);
             this.tb_uninstall_pkg.TabIndex = 2;
             // 
             // tp_device_control
             // 
             this.tp_device_control.Controls.Add(this.groupBox6);
-            this.tp_device_control.Location = new System.Drawing.Point(4, 25);
+            this.tp_device_control.Location = new System.Drawing.Point(4, 22);
             this.tp_device_control.Name = "tp_device_control";
             this.tp_device_control.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_device_control.Size = new System.Drawing.Size(945, 404);
+            this.tp_device_control.Size = new System.Drawing.Size(945, 407);
             this.tp_device_control.TabIndex = 3;
             this.tp_device_control.Text = "设备控制";
             this.tp_device_control.UseVisualStyleBackColor = true;
@@ -518,10 +518,10 @@
             this.tp_key_simulation.Controls.Add(this.groupBox9);
             this.tp_key_simulation.Controls.Add(this.groupBox8);
             this.tp_key_simulation.Controls.Add(this.groupBox7);
-            this.tp_key_simulation.Location = new System.Drawing.Point(4, 25);
+            this.tp_key_simulation.Location = new System.Drawing.Point(4, 22);
             this.tp_key_simulation.Name = "tp_key_simulation";
             this.tp_key_simulation.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_key_simulation.Size = new System.Drawing.Size(945, 404);
+            this.tp_key_simulation.Size = new System.Drawing.Size(945, 407);
             this.tp_key_simulation.TabIndex = 4;
             this.tp_key_simulation.Text = "按键模拟";
             this.tp_key_simulation.UseVisualStyleBackColor = true;
@@ -956,6 +956,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADB工具箱";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_main_FormClosed);
+            this.Load += new System.EventHandler(this.Form_main_Load);
             this.tabControl.ResumeLayout(false);
             this.tp_cmd_log.ResumeLayout(false);
             this.tp_cmd_log.PerformLayout();
